@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.crypticsocket.hoggersvendor.Main6Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENU"
+        android:id="@+id/menu"
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu"
+        android:layout_above="@+id/detail"
+        android:padding="8dp"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="false">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click on the item to delete item"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/detail"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"/>
+
+</RelativeLayout>
