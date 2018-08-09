@@ -41,12 +41,11 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"/>
 
-    <android.support.v7.widget.AppCompatButtonButton
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Add to menu"
         android:onClick="addToMenu"
-        app:backgroundTint="@color/colorAccent"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
         style="@style/Widget.AppCompat.Button.Colored"/>
