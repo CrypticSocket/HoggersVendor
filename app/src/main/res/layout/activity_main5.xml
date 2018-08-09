@@ -13,7 +13,7 @@
         android:id="@+id/foodNameO"
         android:text="Food Name"
         android:gravity="center"
-        android:textSize="25sp"
+        android:textSize="14sp"
         android:textColor="#000"
         android:layout_marginTop="20dp"/>
 
@@ -23,14 +23,14 @@
         android:id="@+id/usersnameO"
         android:text="email ID"
         android:gravity="center"
-        android:textSize="25sp"
+        android:textSize="14sp"
         android:textColor="#000"/>
     
-    <Button
+    <android.support.v7.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Order Fulfilled"
-        android:background="@color/colorAccent"
+        app:backgroundTint="@color/colorAccent"
         android:layout_marginTop="150dp"
         android:onClick="fulfilled"
         android:layout_marginLeft="50dp"

@@ -49,6 +49,7 @@
         <EditText
             android:id="@+id/user"
             android:layout_width="match_parent"
+            android:textSize="14sp"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_email_black_24dp"
             android:inputType="textEmailAddress"
@@ -62,16 +63,17 @@
             android:drawableStart="@drawable/ic_lock_black_24dp"
             android:drawablePadding="10dp"
             android:hint="Password"
+            android:textSize="14sp"
             android:inputType="textPassword" />
 
     </LinearLayout>
 
-    <Button
+    <android.support.v7.widget.AppCompatButton
         android:id="@+id/but1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@color/colorAccent"
+        app:backgroundTint="@color/colorAccent"
         android:onClick="getStarted"
         android:text="Let's get Started"
         android:visibility="visible"
